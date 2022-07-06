@@ -6,3 +6,13 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# 编译后的class文件，忽略所有以.class结尾的文件
+*.class
+# 日志文件，忽略所有以.log结尾的文件
+*.log
+# 打包文件，忽略所有以.jar等结尾的文件
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar

@@ -1,4 +1,4 @@
-package Operator;
+package study.Operator;
 
 /**
  * @author Jason

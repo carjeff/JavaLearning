@@ -1,4 +1,4 @@
-package Type;
+package study.Type;
 
 /**
  * @author Jason
