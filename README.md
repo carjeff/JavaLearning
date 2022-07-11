@@ -142,3 +142,56 @@ class BigDecimal {
         BigDecimal b = BigDecimal.valueOf(a);  
         }
 ```
+## Day5 2022/7/11
+
+### SimpleDateFormat 格式化时间对象类
+1. ```
+    SimpleDateFormat sdf = new SimpleDateFromat("yyyy年MM月dd日");
+    ```
+### Calendar 日历抽象类
+``` Calendar cal = Calendar.getInstance();```
+
+### 包装类
+1. 8种基本数据类型对应的引用类型
+2. 自动装箱和自动拆箱
+3. 可以把字符串类型的数值转换成真实的整数
+
+### 正则表达式 regex
+1. 用于校验数据
+2. String.matches 匹配正则表达式
+
+### Arrays 数组类
+1. Arrays.sort()
+2. Arrays.binarySearch()
+3. 使用Comparator 进行规则的制定
+
+### Lambda 表达式
+1. 简化匿名内部类的代码写法
+2. 只能简化函数式接口的匿名内部类写法
+3. 函数式接口：必须是接口，其次接口只有一个抽象方法,一般用@FunctionalInterface注解
+4. 省略规则！
+
+### 集合 
+1. collection 单列集合
+2. map 双列集合
+
+#### Collection
+1. List系列集合，添加的元素是有序的可重复的，有索引。ArrayList,LinkedList
+2. Set系列集合,添加的元素是无序，不重复，无索引。
+3. HashSet 无序，不重复，无索引
+4. LinkedHashSet 有序
+5. TreeSet 有排序
+
+#### 集合的遍历
+1. iterator 迭代器
+2. 增强for 遍历
+3. forEach 
+
+### 数据结构
+1. 栈：后进先出，先进后出
+2. 队列： 先进先出，后进后出
+3. 数组
+4. 链表
+5. 二叉查找/排序/搜素树： 
+6. 平衡二叉树：左旋右旋
+7. 红黑树
