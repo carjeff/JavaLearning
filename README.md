@@ -195,3 +195,35 @@ class BigDecimal {
 5. 二叉查找/排序/搜素树： 
 6. 平衡二叉树：左旋右旋
 7. 红黑树
+
+
+## Day6 2022/7/12
+### Map集合
+1. Map集合是一种双列集合，健值对 key = value
+2. 健是无序，不重复的，无索引
+3. 健值都可以为null
+
+### 不可变集合
+1. 使用 of ``` List<Integer> list = List.of(122,12,423,443)```
+
+### Stream流
+1. 支持链式编程，
+2. 有终结方法
+3. map.entrySet().stream(); 健值对流
+
+#### stream 方法
+1. filter()
+2. map() 加工方法
+
+### 运行时异常
+1. ArrayIndexOutOfBoundsException 数组越界异常
+2. NullPointerException 空指针异常
+3. ClassCastException 类型转换异常
+4. ArithmeticException 数学操作异常
+5. NumberFormatException 数字转换异常
+
+### 编译时异常
+1. throws Exception 抛异常
+2. try/catch
+3. 方法去抛异常，调用者处理异常
+
