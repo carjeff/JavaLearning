@@ -227,3 +227,130 @@ class BigDecimal {
 2. try/catch
 3. 方法去抛异常，调用者处理异常
 
+### 自定义异常
+1. throw new 异常 抛出
+2. 
+
+## Day7 
+### 日志
+1. 常见的规范：commons logging 和 simple logging facade for java 
+2. logback 日志框架
+
+#### Logback 需要的模块
+1. slf4j-api
+2. logback-core
+3. logback-classic
+
+#### Logback  日志输出位置，格式
+1. logback.xml 中的<append>标签可以设置
+2. 通常可以设置两个位置，控制台，和系统文件
+
+### File 文件对象
+1. 定位文件，获取文件信息，删除文件，创建文件
+2. 支持绝对路径
+3. 也支持相对路径！！相对到工程下！从模块开始，模块名/a.txt
+
+#### listFiles()
+只能遍历一级文件对象
+
+### recursion 递归
+1. 直接递归
+2. 间接递归
+3. 如果没有控制好终止，会出现递归死循环，出现栈内存溢出
+
+
+## Day8
+### io流
+#### 按照内容分
+1. InputStream 字节输入流，来自磁盘文件/网络中的数据以字节的形式读到内存中去
+2. OutputStream 字节输出流，
+3. Reader 字符输入流
+4. Writer 字符输出流
+
+#### 资源释放的方式
+1. try-catch-finally,finally 一定会被执行
+2. try(资源)  资源是实现了Closeable/AutoCloseable接口
+
+#### 字节流，字符流
+1. 字节流更适合音视频
+2. 字符流更适合文本
+
+### 缓冲流 Buffered
+1. 自带缓冲区（默认8kb）、可以提高原始字节流、字符流读写数据的性能
+2. 字符，用行读，readLine
+
+### 转换流
+1. 当代码编码和文件编码 不一样时
+
+### 对象序列化
+1. 以内存为基准，把内存中的对象存储到磁盘文件中去，称为对象序列化
+2. ObjectOutputStream 对象字节输出流
+3. ObjectInputStream 反序列化
+4. 对象一定要实现Serializable接口。
+5. transient 修饰符，可以使该变量不参与序列化。
+6. 序列化版本号 serialVersionUID，用户版本更新
+
+### 打印流 printStream printWriter
+1. 输出语句的重定向，改变输出语句的位置
+
+### Properties 属性集对象
+1. 继承Map集合
+2. 代表的是一个属性文件，里面全都是健值对，用于后续做系统配置信息
+3. properties.store(),properties.load()
+
+### commons-io 框架
+
+
+### 线程
+#### 线程的三种创建方式
+1. 继承 extend Thread类，不能继承其他类了，不利于扩展，必须要用start调用。
+2. 实现Runnable接口，run方法 不能返回结果
+3. 实现Callable接口,FutureTask.
+
+#### 线程的常用方法
+1. Thread.currentThread()
+2. setName(),getName()
+3. Thread.sleep() 休眠方法
+
+#### 线程安全
+#### 线程同步
+1. 解决线程安全问题
+2. 加锁，共享资源进行上锁
+3. 同步代码块 synchronized(同步锁对象)
+
+#### 同步锁对象
+1. 规范上，建议使用共享资源作为锁对象
+2. 对于实例方法，建议用this作为锁对象
+3. 对于静态方法，用 类名.class
+
+#### 同步方法
+1. 方法加上 synchronized 修饰符
+
+#### Lock锁
+1. 更加灵活，方便
+2. 实现类，ReentrantLock ``` private final ReentrantLock lock = new ReentrantLock();```
+3. 解锁要放在finally里面 一定执行
+
+#### 线程通信
+1. 线程间互相发送数据，通过共享一个数据实现
+2. wait()
+3. notify()
+4. notifyAll()
+5. 一定要用当前同步锁对象进行调用
+
+#### 线程池
+1. 是一个可以复用线程的技术
+2. 方式一：接口：ExecutorService 实现类：ThreadPoolExecutor
+3. 方式二：工具类：Executors
+
+#### ThreadPoolExecutor 构造器说明
+1. corePoolSize 指定线程池的线程数量   不能小于0
+2. maximumPoolSize 线程池可支持的最大线程数   最大数量>=核心线程数量
+3. keepAliveTime 临时线程的最大存活时间
+4. unit 指定存活时间的单位
+5. workQueue 指定任务队列
+6. threadFactory 指定那个线程工厂创建线程
+7. handler 指定线程忙，任务满的时候，新任务来了怎么办
+8. 核心线程都在忙，任务队列也满，并且可以创建临时线程时，才会创建临时线程
+
+

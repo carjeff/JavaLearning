@@ -1,4 +1,4 @@
-package study.ATM;
+package project.ATM;
 
 /**
  * @author Jason

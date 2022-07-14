@@ -1,4 +1,4 @@
-package study.ATM;
+package project.ATM;
 
 import java.util.ArrayList;
 import java.util.Random;
