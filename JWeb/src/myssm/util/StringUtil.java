@@ -12,7 +12,7 @@ public class StringUtil {
      * @return 空为 true
      */
     public static boolean isEmpty(String str){
-        return str==null && str.equals("");
+        return str==null || "".equals(str);
     }
 
     public static boolean isNotEmpty(String str){

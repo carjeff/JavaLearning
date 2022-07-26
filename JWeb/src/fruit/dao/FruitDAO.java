@@ -10,8 +10,8 @@ import java.util.List;
  * @Description
  */
 public interface FruitDAO {
-    //获取所有的库存列表信息
-    List<Fruit> getFruitList();
+    //获取指定页码上的所有的库存列表信息,每页显示五条
+    List<Fruit> getFruitList(String keyword,Integer pageNo);
 
     //根据fid获取对应库存信息
     Fruit getFruitByFid(Integer fid);
@@ -24,4 +24,7 @@ public interface FruitDAO {
 
     //添加库存信息
     void addFruit(Fruit fruit);
+
+    //获得库存中总记录数
+    int getFruitCount(String keyword);
 }
