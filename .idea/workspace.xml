@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JWeb:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3eb80da2-8e7e-4000-896e-47ac7b4b2aca" name="Changes" comment="初体验mvc框架，提取公共方法">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JWeb/src/fruit/service/FruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JWeb/src/fruit/service/impl/FruitServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JWeb/src/myssm/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JWeb/src/myssm/filter/OpenSessionInViewFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/qqzone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/basedao/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/basedao/ConnUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/basedao/DAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/filters/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/filters/OpenSessionInViewFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/ioc/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/ioc/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/listeners/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/myspringmvc/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/myspringmvc/DispatcherServletException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/myspringmvc/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/myspringmvc/ViewBaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/trans/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/HostReplyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/ReplyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/TopicDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/UserBasicDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/impl/UserBasicDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/pojo/HostReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/pojo/Reply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/pojo/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/pojo/UserBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/pojo/UserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/css/bottom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/css/left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/css/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/frames/bottom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/frames/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/frames/left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/frames/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/frames/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/imgs/del.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/imgs/dy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/imgs/mrf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/imgs/qf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/imgs/wyy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/imgs/zl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qqzone/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JWeb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JWeb_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWeb/JWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JWeb/JWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWeb/src/fruit/bean/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/JWeb/src/fruit/pojo/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWeb/src/fruit/controllers/FruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/JWeb/src/fruit/controllers/FruitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWeb/src/fruit/dao/FruitDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/JWeb/src/fruit/dao/FruitDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWeb/src/fruit/dao/impl/FruitDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JWeb/src/fruit/dao/impl/FruitDAOImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Tag Library Descriptor" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/usr/local/maven/maven_repository" />
+        <option name="mavenHome" value="/usr/local/maven/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="/usr/local/maven/apache-maven-3.8.6/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BW6Nqz0VJTX1w9YBCYXj0x5KH7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/car/code/JavaLearning/qqzone/src&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.14749265&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qqzone/src" />
+      <recent name="$PROJECT_DIR$/qqzone/src/com/jason/carl/" />
+      <recent name="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/pojo" />
+      <recent name="$PROJECT_DIR$/qqzone/web" />
+      <recent name="$PROJECT_DIR$/JWeb/web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JDBC/lib" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0">
+    <configuration name="BlobTest.BlobForQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="preparedStatement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="preparedStatement" />
+      <option name="MAIN_CLASS_NAME" value="preparedStatement.BlobTest" />
+      <option name="METHOD_NAME" value="BlobForQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlobTest.updateBlob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="preparedStatement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="preparedStatement" />
+      <option name="MAIN_CLASS_NAME" value="preparedStatement.BlobTest" />
+      <option name="METHOD_NAME" value="updateBlob" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DruidTest.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="connection" />
+      <option name="MAIN_CLASS_NAME" value="connection.DruidTest" />
+      <option name="METHOD_NAME" value="getConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="transaction" />
+      <option name="MAIN_CLASS_NAME" value="transaction.TransactionTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="junit.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JWeb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="junit" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/fruit.do" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="JWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="368f19bf-d3e2-4aa0-bc4a-8e96ac2e54ba" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51339" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JWeb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.junit.test1" />
+      <item itemvalue="JUnit.DruidTest.getConnection" />
+      <item itemvalue="JUnit.TransactionTest.test1" />
+      <item itemvalue="JUnit.BlobTest.BlobForQuery" />
+      <item itemvalue="JUnit.BlobTest.updateBlob" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.junit.test1" />
+        <item itemvalue="JUnit.DruidTest.getConnection" />
+        <item itemvalue="JUnit.TransactionTest.test1" />
+        <item itemvalue="JUnit.BlobTest.BlobForQuery" />
+        <item itemvalue="JUnit.BlobTest.updateBlob" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3eb80da2-8e7e-4000-896e-47ac7b4b2aca" name="Changes" comment="" />
+      <created>1657009457237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657009457237</updated>
+      <workItem from="1657009460473" duration="4133000" />
+      <workItem from="1657026730772" duration="886000" />
+      <workItem from="1657027621015" duration="1189000" />
+      <workItem from="1657028829246" duration="8058000" />
+      <workItem from="1657073533367" duration="46684000" />
+      <workItem from="1657505290294" duration="15032000" />
+      <workItem from="1657544020053" duration="1247000" />
+      <workItem from="1657591381138" duration="7172000" />
+      <workItem from="1657618205454" duration="1233000" />
+      <workItem from="1657677387575" duration="15594000" />
+      <workItem from="1657760317691" duration="16159000" />
+      <workItem from="1657850828592" duration="12070000" />
+      <workItem from="1657872682909" duration="368000" />
+      <workItem from="1657936552159" duration="119000" />
+      <workItem from="1658105713157" duration="9685000" />
+      <workItem from="1658192252828" duration="798000" />
+      <workItem from="1658279065056" duration="3835000" />
+      <workItem from="1658285131710" duration="11595000" />
+      <workItem from="1658319516894" duration="6303000" />
+      <workItem from="1658364504097" duration="9322000" />
+      <workItem from="1658405064444" duration="1258000" />
+      <workItem from="1658455911689" duration="9000" />
+      <workItem from="1658457371218" duration="6898000" />
+      <workItem from="1658713475032" duration="1536000" />
+      <workItem from="1658715043472" duration="9563000" />
+      <workItem from="1658749668705" duration="10821000" />
+      <workItem from="1658798621404" duration="13549000" />
+      <workItem from="1658836294796" duration="9089000" />
+      <workItem from="1658848035990" duration="21000" />
+      <workItem from="1658848349171" duration="261000" />
+      <workItem from="1658884571134" duration="3776000" />
+      <workItem from="1658921842314" duration="4049000" />
+      <workItem from="1658970406962" duration="2702000" />
+    </task>
+    <task id="LOCAL-00001" summary="学习一些基础知识，数组，集合，方法，简单写了一个ATM的案例">
+      <created>1657118286520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657118286520</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day3">
+      <created>1657200533968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657200533968</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day4">
+      <created>1657292157359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657292157359</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day5">
+      <created>1657549348584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657549348584</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Day6">
+      <created>1657624121944</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657624121944</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day8">
+      <created>1657790456255</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657790456255</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Day9">
+      <created>1657872504428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657872504429</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Day10">
+      <created>1658122590791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658122590791</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Day11">
+      <created>1658279103470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658279103470</updated>
+    </task>
+    <task id="LOCAL-00010" summary="JDBC基本操作">
+      <created>1658332697869</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658332697869</updated>
+    </task>
+    <task id="LOCAL-00011" summary="JDBC线程池使用方法，DAO的知识">
+      <created>1658384526539</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658384526539</updated>
+    </task>
+    <task id="LOCAL-00012" summary="JavaWeb初体验，使用thymeleaf">
+      <created>1658760090181</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658760090181</updated>
+    </task>
+    <task id="LOCAL-00013" summary="JavaWeb初体验，使用thymeleaf">
+      <created>1658760867254</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658760867254</updated>
+    </task>
+    <task id="LOCAL-00014" summary="初体验mvc框架，提取公共方法">
+      <created>1658847848861</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658847848861</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="学习一些基础知识，数组，集合，方法，简单写了一个ATM的案例" />
+    <MESSAGE value="Day3" />
+    <MESSAGE value="Day4" />
+    <MESSAGE value="Day5" />
+    <MESSAGE value="Day6" />
+    <MESSAGE value="Day8" />
+    <MESSAGE value="Day9" />
+    <MESSAGE value="Day10" />
+    <MESSAGE value="Day11" />
+    <MESSAGE value="JDBC基本操作" />
+    <MESSAGE value="JDBC线程池使用方法，DAO的知识" />
+    <MESSAGE value="JavaWeb初体验，使用thymeleaf" />
+    <MESSAGE value="初体验mvc框架，提取公共方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="初体验mvc框架，提取公共方法" />
+  </component>
+</project>

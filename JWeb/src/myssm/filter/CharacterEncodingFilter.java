@@ -1,4 +1,4 @@
-package fruit.filter;
+package myssm.filter;
 
 
 import javax.servlet.*;

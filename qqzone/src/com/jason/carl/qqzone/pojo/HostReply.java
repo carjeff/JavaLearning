@@ -1,4 +1,4 @@
-package com.atguigu.qqzone.pojo;
+package com.jason.carl.qqzone.pojo;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.atguigu.myssm.trans;
+package com.jason.carl.myssm.trans;
 
 import com.atguigu.myssm.basedao.ConnUtil;
 

@@ -1,6 +1,6 @@
 package fruit.dao;
 
-import fruit.bean.Fruit;
+import fruit.pojo.Fruit;
 
 import java.util.List;
 

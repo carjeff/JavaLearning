@@ -1,6 +1,6 @@
-package fruit.biz.impl;
+package fruit.service.impl;
 
-import fruit.biz.FruitService;
+import fruit.service.FruitService;
 import fruit.dao.FruitDAO;
 import fruit.dao.impl.FruitDAOImpl;
 import fruit.pojo.Fruit;

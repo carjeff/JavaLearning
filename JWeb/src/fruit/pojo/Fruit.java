@@ -1,4 +1,4 @@
-package fruit.bean;
+package fruit.pojo;
 
 /**
  * @author Jason

@@ -1,6 +1,6 @@
 package fruit.dao.impl;
 
-import fruit.bean.Fruit;
+import fruit.pojo.Fruit;
 import fruit.dao.FruitDAO;
 import myssm.basedao.BaseDAO;
 

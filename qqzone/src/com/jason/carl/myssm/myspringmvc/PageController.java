@@ -1,4 +1,4 @@
-package com.atguigu.myssm.myspringmvc;
+package com.jason.carl.myssm.myspringmvc;
 
 public class PageController {
     public String page(String page){

@@ -1,4 +1,4 @@
-package com.atguigu.myssm.basedao;
+package com.jason.carl.myssm.basedao;
 
 import java.lang.reflect.*;
 import java.sql.*;
@@ -93,7 +93,7 @@ public abstract class BaseDAO<T> {
             if(isMyType(typeName)){
                 //假设typeName是"com.atguigu.qqzone.pojo.UserBasic"
                 Class typeNameClass = Class.forName(typeName);
-                Constructor constructor = typeNameClass.getDeclaredConstructor(java.lang.Integer.class);
+                Constructor constructor = typeNameClass.getDeclaredConstructor(Integer.class);
                 propertyValue = constructor.newInstance(propertyValue);
             }
             field.setAccessible(true);

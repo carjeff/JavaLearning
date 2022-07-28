@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/JWeb/JWeb.iml" filepath="$PROJECT_DIR$/JWeb/JWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaLearning.iml" filepath="$PROJECT_DIR$/.idea/JavaLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaEE/javaEE.iml" filepath="$PROJECT_DIR$/javaEE/javaEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qqzone/qqzone.iml" filepath="$PROJECT_DIR$/qqzone/qqzone.iml" />
     </modules>
   </component>
 </project>

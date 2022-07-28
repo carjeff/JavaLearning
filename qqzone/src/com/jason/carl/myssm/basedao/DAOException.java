@@ -1,4 +1,4 @@
-package com.atguigu.myssm.basedao;
+package com.jason.carl.myssm.basedao;
 
 public class DAOException extends RuntimeException{
     public DAOException(String msg){

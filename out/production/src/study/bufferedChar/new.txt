@@ -1,0 +1,12 @@
+一. InputStream 字节输入流，来自磁盘文件/网络中的数据以字节的形式读到内存中去
+二. OutputStream 字节输出流，
+三. Reader 字符输入流
+四. Writer 字符输出流
+五. ## Day8
+六. #### 资源释放的方式
+七. ### io流
+八. try-catch-finally,finally 一定会被执行
+九. #### 按照内容分
+十. try(资源)  资源是实现了Closeable/AutoCloseable接口
+十一. 字节流更适
+十二. #### 字节流，字符流
