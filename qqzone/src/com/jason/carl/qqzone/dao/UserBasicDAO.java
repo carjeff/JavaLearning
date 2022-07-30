@@ -15,4 +15,7 @@ public interface UserBasicDAO {
 
     //根据用户获取所有好友列表
     List<UserBasic> getFriendList(UserBasic userBasic);
+
+    //根据id查找用户信息
+    UserBasic getUserBasicById(Integer id);
 }

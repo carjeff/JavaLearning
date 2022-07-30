@@ -1,7 +1,7 @@
 package com.jason.carl.myssm.myspringmvc;
 
-import com.atguigu.myssm.ioc.BeanFactory;
-import com.atguigu.myssm.util.StringUtil;
+import com.jason.carl.myssm.ioc.BeanFactory;
+import com.jason.carl.myssm.util.StringUtil;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

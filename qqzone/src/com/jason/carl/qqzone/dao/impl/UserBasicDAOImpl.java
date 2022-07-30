@@ -14,13 +14,20 @@ import java.util.List;
 public class UserBasicDAOImpl extends BaseDAO<UserBasic> implements UserBasicDAO {
     @Override
     public UserBasic getUserBasic(String loginId, String pwd) {
-        return null;
+
+        return super.load("select * from t_user_basic where loginId = ? and pwd = ?",loginId,pwd);
 
 
     }
 
     @Override
     public List<UserBasic> getFriendList(UserBasic userBasic) {
-        return null;
+        String sql = "select fid from t_friend where uid = ?";
+        return super.executeQuery(sql,userBasic.getId());
+    }
+
+    @Override
+    public UserBasic getUserBasicById(Integer id) {
+        return super.load("select * from t_user_basic where id = ?" , id);
     }
 }
