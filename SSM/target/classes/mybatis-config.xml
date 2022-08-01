@@ -3,21 +3,34 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+
+    <!-- 引入properties文件  之后使用${key}的方式使用  -->
+    <properties resource="jdbc.properties" />
+
+    <typeAliases>
+    <!-- 将所有的该包下的所有类 取默认别名       -->
+        <package name="com.jason.mybatis.pojo"/>
+    </typeAliases>
     <!--  配置连接数据库的环境  -->
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC"/>
-                <property name="username" value="root"/>
-                <property name="password" value="chezijie"/>
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
     </environments>
 
     <!-- 引入mybatis的映射文件  -->
     <mappers>
-        <mapper resource="mappers/UserMapper.xml"/>
+        <!--   以包的方式引入映射文件 必须满足两个条件
+               1 mapper接口和映射文件所在的包必须一致
+               2 mapper接口的名字和映射文件的名字必须一致
+         -->
+<!--        <mapper resource="mappers/UserMapper.xml"/>-->
+        <package name="com.jason.mybatis.mapper"/>
     </mappers>
 </configuration>

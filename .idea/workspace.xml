@@ -10,70 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eb80da2-8e7e-4000-896e-47ac7b4b2aca" name="Changes" comment="初体验mvc框架，提取公共方法">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM/src/main/java/com/jason/mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM/src/main/java/com/jason/mybatis/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSM/src/test/java/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/impl/TopicDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/service/TopicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/service/UserBasicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/service/impl/TopicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/service/impl/UserBasicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JWeb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/qqzone_JWeb_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSM/src/main/resources/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWeb/JWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JWeb/JWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/fruit/biz/FruitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/fruit/biz/impl/FruitServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/fruit/controllers/FruitController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/fruit/dao/FruitDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/fruit/dao/impl/FruitDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/fruit/pojo/Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/myssm/basedao/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/myssm/myspringmvc/DispatcherServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/myssm/myspringmvc/ViewBaseServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/classes/myssm/util/StringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/junit-4.13.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/log4j-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/ognl-3.1.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/thymeleaf-3.0.12.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/css/add.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/css/edit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/imgs/del.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JWeb_war_exploded/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JWeb/fruit/biz/FruitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JWeb/fruit/biz/impl/FruitServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JWeb/fruit/controllers/FruitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JWeb/fruit/controllers/FruitController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/qqzone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/qqzone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/basedao/ConnUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/basedao/ConnUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/filters/CharacterEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/filters/CharacterEncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/filters/OpenSessionInViewFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/filters/OpenSessionInViewFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/ioc/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/ioc/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/listeners/ContextLoaderListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/listeners/ContextLoaderListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/myspringmvc/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/myspringmvc/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/trans/TransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/myssm/trans/TransactionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/UserBasicDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/UserBasicDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/impl/UserBasicDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/src/com/jason/carl/qqzone/dao/impl/UserBasicDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqzone/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/qqzone/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/src/main/java/com/jason/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/java/com/jason/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/resources/com/jason/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/src/test/java/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/test/java/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/target/classes/com/jason/mybatis/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/com/jason/mybatis/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/target/classes/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/target/test-classes/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/test-classes/MybatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +37,7 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="mybatis-config" />
       </list>
     </option>
   </component>
@@ -138,7 +85,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.14749265",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -150,28 +97,13 @@
       <recent name="$PROJECT_DIR$/JWeb/web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SSM/src/main/resources/com/jason/mybatis/mapper" />
       <recent name="$PROJECT_DIR$/JDBC/lib" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.mybatisTest">
-    <configuration name="BlobTest.BlobForQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="preparedStatement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="preparedStatement" />
-      <option name="MAIN_CLASS_NAME" value="preparedStatement.BlobTest" />
-      <option name="METHOD_NAME" value="BlobForQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MybatisTest.testGetUserById">
     <configuration name="DruidTest.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
@@ -193,6 +125,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MybatisTest" />
       <option name="METHOD_NAME" value="mybatisTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
+      <option name="METHOD_NAME" value="testGetUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,20 +255,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.MybatisTest.testGetUserById" />
       <item itemvalue="JUnit.MybatisTest.mybatisTest" />
       <item itemvalue="JUnit.junit.test1" />
       <item itemvalue="JUnit.DruidTest.getConnection" />
       <item itemvalue="JUnit.TransactionTest.test1" />
-      <item itemvalue="JUnit.BlobTest.BlobForQuery" />
       <item itemvalue="Tomcat Server.Tomcat 9.0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.testGetUserById" />
         <item itemvalue="JUnit.MybatisTest.mybatisTest" />
         <item itemvalue="JUnit.junit.test1" />
         <item itemvalue="JUnit.DruidTest.getConnection" />
         <item itemvalue="JUnit.TransactionTest.test1" />
-        <item itemvalue="JUnit.BlobTest.BlobForQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +314,8 @@
       <workItem from="1658921842314" duration="4049000" />
       <workItem from="1658970406962" duration="3322000" />
       <workItem from="1659055614463" duration="5076000" />
-      <workItem from="1659161134824" duration="6722000" />
+      <workItem from="1659161134824" duration="7382000" />
+      <workItem from="1659314069523" duration="6901000" />
     </task>
     <task id="LOCAL-00001" summary="学习一些基础知识，数组，集合，方法，简单写了一个ATM的案例">
       <created>1657118286520</created>

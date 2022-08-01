@@ -8,4 +8,13 @@
         insert into t_user values (null, 'che', '12345', 23, '男','1234556@qq.com' )
     </insert>
 
+    <!--User getUserById(Integer id);    -->
+    <select id="getUserById" resultType="com.jason.mybatis.pojo.User">
+        select * from t_user where id = 2
+    </select>
+
+    <!-- List<User> getAllUsers();    -->
+    <select id="getAllUsers" resultType="com.jason.mybatis.pojo.User">
+        select * from t_user
+    </select>
 </mapper>
